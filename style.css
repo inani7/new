@@ -1,0 +1,146 @@
+body {
+    padding:0; 
+    margin:0;
+    background-color: rgb(41,40,46);
+    color:white;
+    font-family: system-ui;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.sidebar{
+    position: relative;
+    top: 0px;
+    background-color: rgb(0,164,189, 0.6);
+    padding: 2px 10px;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    z-index: index 3;
+    margin: auto;
+    }
+
+.menuButton {
+    transition-property: background-color, color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    text-align: left;
+    background-color: rgb(0,164,189, 0);
+    left: 5px;
+    top: 5px;
+    height: 100%;
+    color: white;
+    font-family: system-ui;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 18px 10px;
+    margin: -2px;
+    border-radius: 0px;    
+  }
+  
+.menuButton:hover {
+    transition-property: background-color, color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    background-color:white;
+    color:rgb(0,164,189);
+    size-adjust: 150%;
+  }
+
+.block{
+    position: relative;
+     }
+
+.heading {
+    position: relative;
+    height: 500px;
+    width: 800px;
+}
+    
+.foto{
+    position: absolute;
+    left: 780px;
+    top: 20px;
+    border-style: solid;
+    border-color:rgba(70, 68, 78, 0.3);
+    
+    }
+
+.frontend {
+    font-size: 20px;
+    position: absolute;
+    top: 110px;
+    padding-left: 60px;
+    color: rgb(0,164,189);
+  }
+
+#fomin {
+    font-size: 116px;
+    position: absolute;
+    top: 93px;
+    left: 56px;
+    margin: 0px;
+    line-height: 0px;
+    color: rgb(239,238,244);
+  }
+
+.roman {
+    font-size: 116px;
+    position: absolute;
+    top: 185px;
+    left: 205px;
+    margin: 0px;
+    line-height: 0px;
+    color: rgb(239,238,244);
+  }
+
+.headlines {
+    padding-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    padding-top: 40px;
+    
+}
+
+.text{
+    padding-left: 205px;
+    padding-right: 350px;
+    text-align: justify;
+}
+
+ul{
+    margin-left: -15px;
+    line-height: 40px;
+}
+
+.footer{
+    position: relative;
+    background-color: rgb(41,40,46);
+    height: 200px;
+    width: 100%;
+    border-top-style: solid;
+    border-color:white;
+    margin-top: 200px;
+}
+
+.contact{
+    position: relative;
+    margin-left: 60px;
+    width: 200px;
+}
+
+.a_contact {
+ color: white;
+ text-decoration: none;
+}
+
+.contact_ul{
+    color: white;
+    text-decoration: none;
+    margin-left: 205px;
+    margin-top: -45px;
+   }
